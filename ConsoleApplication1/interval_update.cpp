@@ -129,7 +129,7 @@ void interval_update(char *fn1, char *fn2, char *prob)
 	//open file done
 	/******************************************/
 	WriteFile(fn1, 1, 1, 1);
-
+	//first change
 	WriteFile(fn1, 2, 2, 2);
 	////check_args(fn1, fn2, prob);
 	//printf("\n %s \n %s \n %s",fn1, fn2, prob);
